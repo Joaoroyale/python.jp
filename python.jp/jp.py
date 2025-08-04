@@ -1,0 +1,1 @@
+print ("Se quiser soma, digite: A. Se quiser a subtração digite: B. se quiser subtração digite: C. Se quiser multiplicação digite: D ")
