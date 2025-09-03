@@ -9,5 +9,4 @@ y = 0
 while y < 5:
     pilha.pop ()
     print (pilha)
-    print ("Apagando informações.")
     y = y + 1
