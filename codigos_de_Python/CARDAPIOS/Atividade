@@ -23,7 +23,7 @@ while True:
         elif pedido == "pudim_com_baba":
            x = x = 25
         else:  
-            print ("Não tem este pedido no cardapio.")
+            print ("Não tem este alimento no cardapio.")
             print (pedido_completo)
 x = x + 1
 bebidas = "Guarana com baba","Poeira cosmica","Tinta","Baba de lesma","Cuspe de galo"
@@ -31,7 +31,7 @@ y = 0
 pedido_de_bebidas = []
 while True:
     pedido_bebidas = input("Quais bebidas voce quer?:")
-    if pedido_bebidas == "sair":
+    if pedido_bebidas == "Não quero nada":
        break
     if pedido_bebidas in bebidas:
         pedido_de_bebidas.append(pedido_bebidas)
@@ -45,3 +45,4 @@ while True:
            x = x + 10
         elif pedido_bebidas == "Cuspe de galo":
            x = x + 12
+print (f"Vocé pediu:{pedido} para comer e de bebidas pedisse {pedido_bebidas}:")
