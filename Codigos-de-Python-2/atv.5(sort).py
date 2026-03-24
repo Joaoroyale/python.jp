@@ -1,5 +1,5 @@
 capitais = ["Recife","Fortaleza","São Paulo","Brasília","Rio de janeiro"]
 
-capitais.sort()
+capitais.sort() #Ordem alfabética
 
 print (capitais)
